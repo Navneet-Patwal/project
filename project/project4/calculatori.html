@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Retirement Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div id="header">
+      <h1>Retirement Calculator</h1>
+    </div>
+    <section>
+      <p>how old are you?</p>
+      <input type="textfield" id="Age">
+
+      <p>At what age d you want to retire?</p>
+      <input type="textfield" id="retirementAge">
+
+      <br>
+      <br>
+
+      <button class="btn2" onclick="retirementYear()">Submit</button>
+<!-- final result-->
+
+      <br>
+      <br>
+      <div class="test" id ="results">
+        <h2>RESULTS</h2>
+
+      </div>
+
+      <p class="here" id="finalScoreText"></p>
+      <p class="here" id="retire"></p>
+      <p class="here" id="result"></p>
+    </section>
+
+    <script src="calcuator.js"></script>
+  </body>
+</html>

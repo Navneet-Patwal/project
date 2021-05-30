@@ -1,0 +1,14 @@
+div#round{
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: red;
+  position: absolute;
+  height:100px;
+  width:100px;
+}
+p#line{
+  width:100px;
+  height:10px;
+  color:black;
+  border:1em;
+}
